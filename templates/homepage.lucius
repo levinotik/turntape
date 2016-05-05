@@ -16,3 +16,6 @@ footer {
 .input-sm {
     margin-left: 20px
 }
+
+ytplayer {pointer-events: none;}
+

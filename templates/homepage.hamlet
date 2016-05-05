@@ -19,7 +19,6 @@
   firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 
   var foo =  "#{foobar}"
-  alert(foo);
   
 <script src="@{StaticR js_homepage_js}">
 
