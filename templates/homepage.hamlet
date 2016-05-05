@@ -1,0 +1,27 @@
+<!-- Include the PubNub Library -->
+<script src="https://cdn.pubnub.com/pubnub.min.js">
+ 
+<div id="player">
+
+<script>
+  
+  var playerVars = {
+      modestbranding: 1,
+      theme: 'light',
+      showinfo: 0,
+      rel: 0,
+      fs: 0
+    };
+  
+  var tag = document.createElement('script');
+  tag.src = "https://www.youtube.com/iframe_api";
+  var firstScriptTag = document.getElementsByTagName('script')[0];
+  firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+  var foo =  "#{foobar}"
+  alert(foo);
+  
+<script src="@{StaticR js_homepage_js}">
+
+
+
